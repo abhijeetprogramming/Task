@@ -33,7 +33,7 @@ const Person = () => {
       .then((data) => {
         dispatch({ type : "SET_POSTS", payload: data.slice(0, 50)})
       });
-    }, 5000);
+    }, 5000); 
   }, [])
 
   return (
